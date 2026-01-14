@@ -481,3 +481,104 @@ footer .nav #Accueil{
         display: none;
     }
 }
+
+@media screen and (max-width: 767px){
+    header{
+        padding: 0 15px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 11px;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    header #burger_menu{
+        display: flex;
+    }
+
+    header div{
+        display: none;
+    }
+
+    main{
+        padding: 0 15px;
+    }
+
+    main .section1 div #img img{
+    width: 200px;
+    }
+
+    main .section1 div #Background{
+    background-size: 300px;
+    }
+
+    main .section2 .div2 .gauche .haut #haut{
+    width: 68px;
+    height: 118px;
+    }
+
+    main .section2 .div2 .gauche .bas #bas{
+    width: 142.5px;
+    height: 119.5px;
+    }
+
+    main .section3 .title{
+        display: inline;
+    }
+
+    main .section4 h2{
+        margin: 0;
+    }
+
+    main .section3 .tableaux{
+        display: inline;
+    }
+
+    main .section3 .tableaux img{
+        margin-top: 20px;
+    }
+
+    main .section4{
+        height: 1750px;
+    }
+
+    main .section4 .grandediv{
+        display: inline;
+    }
+
+    main .section5 .title{
+        display: inline;
+    }
+
+    main .section5 .title h2{
+        font-size: 20px;
+    }
+
+    main .section5 .actu img{
+    width: 250px;
+    height: 250px;
+    }
+
+    footer{
+        padding: 0 15px;
+    }
+
+    footer div i{
+        display: none;
+    }
+
+    footer .nav #artnav{
+        display: none;
+    }
+}
