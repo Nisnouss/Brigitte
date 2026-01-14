@@ -60,3 +60,40 @@ header #Accueil{
 header div i{
     color: var(--orangefoncé);
 }
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a img{
+    width: 103px;
+}
+
+footer div i{
+    color: var(--orangefoncé);
+}
+
+footer .nav nav ul{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+footer .nav{
+    display: inline
+}
+
+footer .nav #artcopy{
+    text-align: center;
+}
+
+footer .nav #Accueil{
+    color: var(--orangefoncé);
+}
