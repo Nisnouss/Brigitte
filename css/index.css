@@ -33,6 +33,21 @@ a:hover{
     transition: all 0.3s ease-in-out;
 }
 
+h2,
+h3{
+    font-family: var(--gloriapolice);
+}
+
+h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: var(--notosans);
+    font-size: 18px;
+}
+
 /* Header */
 
 header{
@@ -59,6 +74,69 @@ header #Accueil{
 
 header div i{
     color: var(--orangefoncé);
+}
+
+/* Main */
+
+/* Section 1 */
+
+main .section1 div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+    max-width: 1150px;
+    gap: 150px;
+    align-items: center;
+}
+
+main .section1 div .Bienvenue{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+
+main .section1 div .Bienvenue #Bienvenue{
+    color: var(--orangefoncé);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+main .section1 div .Bienvenue span hr{
+    border-color: var(--orangefoncé);
+    border: 1px solid var(--orangefoncé);
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+main .section1 div h3{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+main .section1 div p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+main .section1 div a{
+    border: 1px solid var(--rose);
+    padding: 10px 15px;
+}
+
+main .section1 div a:hover{
+    color: pink;
+    transition: all 0.3s ease-in-out;
+}
+
+main .section1 div #img img{
+    width: 350px;
+}
+
+main .section1 div #Background{
+    background-image: url(../img/imagedefond.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 550px;
 }
 
 /* Footer */
