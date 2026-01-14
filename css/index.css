@@ -218,6 +218,57 @@ main .section3 .tableaux p{
     text-align: center;
 }
 
+/* Section 4 */
+
+main .section4{
+    max-width: 1440px;
+    margin: 30px auto;
+    background-color: var(--grisclair);
+    height: 1000px;
+}
+
+main .section4 h2{
+    text-align: center;
+}
+
+main .section4 .grandediv{
+    max-width: 1150px;
+    margin: auto;
+}
+
+main .section4 .grandediv .petitediv{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+main .section4 .grandediv .petitediv h3{
+    text-align: center;
+}
+
+main .section4 .grandediv .petitediv p{
+    margin-bottom: 15px;
+}
+
+main .section4 .grandediv .petitediv img{
+    width: 370px;
+    height: 220px;
+}
+
+main .section4 .grandediv .petitediv .btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section4 .grandediv .petitediv .btn a{
+    border: 1px solid var(--rose);
+    padding: 10px 15px;
+}
+
+main .section4 .grandediv .petitediv .btn i{
+    color: var(--orangefoncé);
+}
+
 /* Footer */
 
 footer{
