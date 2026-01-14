@@ -76,6 +76,10 @@ header div i{
     color: var(--orangefoncé);
 }
 
+header #burger_menu{
+    display: none;
+}
+
 /* Main */
 
 /* Section 1 */
@@ -383,4 +387,97 @@ footer .nav #artcopy{
 
 footer .nav #Accueil{
     color: var(--orangefoncé);
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        padding: 0 15px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    header #burger_menu{
+        display: flex;
+    }
+
+    header div{
+        display: none;
+    }
+
+    main{
+        padding: 0 15px;
+    }
+
+    main .section1{
+        display: flex;
+    }
+
+    main .section1 div{
+        display: inline;
+    }
+
+    main .section1 div #Background{
+        margin-top: 30px;
+    }
+
+    main .section2{
+        display: flex;
+    }
+
+    main .section2 .div2{
+        display: inline;
+    }
+
+    main .section2 .div2 .gauche{
+        margin-top: 30px;
+    }
+
+    main .section3 .tableaux{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main .section4{
+        height: 1100px;
+    }
+
+    main .section4 .grandediv .petitediv{
+        display: inline;
+        text-align: center;
+    }
+
+    main .section4 .grandediv{
+        display: flex;
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+    main .section4 .grandediv .petitediv img{
+        width: 185px;
+        height: 110px;
+        margin-top: 30px;
+    }
+
+    main .section5 .actu{
+        display: inline;
+        text-align: center;
+    }
+
+    main .section5 .actu img{
+        margin-top: 20px;
+    }
+
+    footer{
+        padding: 0 15px;
+    }
+
+    footer .nav #artnav{
+        display: none;
+    }
 }
