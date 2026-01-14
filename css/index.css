@@ -139,6 +139,51 @@ main .section1 div #Background{
     background-size: 550px;
 }
 
+/* Section 2 */
+
+main .section2 .div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
+    max-width: 1440px;
+    gap: 10px;
+}
+
+main .section2 .div2 .droite{
+    background-color: var(--rose);
+    padding: 40px;
+}
+
+main .section2 .div2 .droite p{
+    margin-bottom: 15px;
+}
+
+main .section2 .div2 .gauche .haut{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+main .section2 .div2 .gauche{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+main .section2 .div2 .gauche .haut #haut{
+    width: 154px;
+    height: 266px;
+}
+
+main .section2 .div2 .gauche .bas #bas{
+    width: 313px;
+    height: 263px;
+}
+
+main .section2 .div2 .gauche .bas{
+    display: flex;
+    gap: 5px;
+}
+
 /* Footer */
 
 footer{
