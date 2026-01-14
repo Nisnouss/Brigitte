@@ -184,6 +184,40 @@ main .section2 .div2 .gauche .bas{
     gap: 5px;
 }
 
+/* Section 3 */
+
+main .section3{
+    margin: 20px auto;
+    max-width: 1150px;
+}
+
+main .section3 .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .section3 .title a{
+    border: 1px solid var(--rose);
+    padding: 10px 15px;
+}
+
+main .section3 .tableaux{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+main .section3 .tableaux img{
+    width: 280px;
+    height: 260px;
+}
+
+main .section3 .tableaux h3,
+main .section3 .tableaux p{
+    text-align: center;
+}
+
 /* Footer */
 
 footer{
