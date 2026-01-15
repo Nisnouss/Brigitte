@@ -574,11 +574,11 @@ footer .nav #Accueil{
         padding: 0 15px;
     }
 
-    footer div i{
+    footer a{
         display: none;
     }
 
-    footer .nav #artnav{
+    footer .nav #artnav nav{
         display: none;
     }
 }
